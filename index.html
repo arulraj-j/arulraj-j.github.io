@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arulraj J | Senior Data Engineer</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --text-light: #7f8c8d;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            letter-spacing: -1px;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            font-weight: 500;
+            margin: 0 0 20px 0;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .contact-links a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Experience Layout */
+        .job {
+            margin-bottom: 30px;
+        }
+        
+        .job:last-child {
+            margin-bottom: 0;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        .company {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .date {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category h3 {
+            font-size: 1.1rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: var(--bg-color);
+            color: var(--primary-color);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .job-header {
+                flex-direction: column;
+            }
+            .date {
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>ARULRAJ J</h1>
+        <p class="title">Senior Data Engineer & Architect</p>
+        <div class="contact-links">
+            <a href="mailto:arulj7978@gmail.com">arulj7978@gmail.com</a>
+            <a href="https://linkedin.com/in/arulraj-j" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/arulraj-j" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span>Coimbatore, TN, IND</span>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Data Scientist and Engineer with deep expertise in designing, building, and optimizing scalable, AI-driven data solutions. Proficient in leveraging Generative AI, cloud analytics platforms, and modern stream processing architectures to develop high-performance data pipelines.</p>
+        <p>I specialize in integrating AI into complex data engineering workflows, enriching datasets, and orchestrating centralized data hubs that drive strategic business impact.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <h3 class="job-title">Senior Associate - Data Solutions <span class="company">@ QBrainX</span></h3>
+                <span class="date">November 2024 - Present</span>
+            </div>
+            <ul>
+                <li>Contributed to the development of a Large Language Model (LLM) project, leveraging modern NLP techniques for enhanced language processing.</li>
+                <li>Built and fine-tuned Vertex AI training pipelines, establishing highly scalable and efficient model training methodologies.</li>
+                <li>Integrated stream processing workflows and machine learning solutions seamlessly into enterprise cloud infrastructures.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <h3 class="job-title">Data Scientist / Engineer <span class="company">@ Avvenire Technologies</span></h3>
+                <span class="date">October 2019 - December 2023</span>
+            </div>
+            <ul>
+                <li>Applied generative AI techniques using Azure Machine Learning to modernize data-driven decision-making processes.</li>
+                <li>Leveraged Databricks and cloud platforms to ingest, transform, and manage structured, semi-structured, and unstructured big data.</li>
+                <li>Developed advanced deep learning models to forecast outcomes, alongside predictive analysis and robust sentiment analysis pipelines.</li>
+                <li>Designed domain-specific data models, optimizing complex analytics workflows to deliver significant operational business impact.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <h3 class="job-title">Data Analyst <span class="company">@ Avvenire Technologies</span></h3>
+                <span class="date">January 2015 - September 2019</span>
+            </div>
+            <ul>
+                <li>Developed data and pattern mining algorithms to extract vital insights from expansive and complex datasets.</li>
+                <li>Utilized Hadoop MapReduce ecosystems to process vast amounts of raw data efficiently.</li>
+                <li>Conducted comprehensive analysis to surface anomalies, trends, and business patterns to stakeholders.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="key-projects">
+        <h2>Key Architectural Projects</h2>
+        <div class="job">
+            <ul>
+                <li><strong>Statewide Central Data Hub (DMS):</strong> Engineered a modular data management solution acting as the central data hub for 15 state agencies. Ensured reliable data availability for essential back-office functions including HR, procurement, and facilities.</li>
+                <li><strong>Streaming Data Integration Platform:</strong> Designed an optimized stream processing architecture utilizing Apache Kafka in tandem with Snowpipe to ensure low-latency ingestion into centralized Snowflake environments.</li>
+                <li><strong>Enterprise Analytics Dashboarding:</strong> Led technical discovery and documentation for extensive BI initiatives. Established rigorous data contracts and ingestion pathways, moving raw telemetry (GA4) reliably into curated silver tables for downstream Power BI synthetic modeling.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Data Engineering & Cloud</h3>
+                <div class="tags">
+                    <span class="tag">GCP / Vertex AI</span>
+                    <span class="tag">Azure ML / Synapse</span>
+                    <span class="tag">Snowflake</span>
+                    <span class="tag">BigQuery</span>
+                    <span class="tag">Apache Spark</span>
+                    <span class="tag">Apache Kafka</span>
+                    <span class="tag">ETL Pipelines</span>
+                    <span class="tag">Databricks</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Machine Learning & AI</h3>
+                <div class="tags">
+                    <span class="tag">LLM / GenAI</span>
+                    <span class="tag">Deep Neural Networks</span>
+                    <span class="tag">SKLearn</span>
+                    <span class="tag">PySpark</span>
+                    <span class="tag">NLP</span>
+                    <span class="tag">Training Pipelines</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Analysis & Languages</h3>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">DAX</span>
+                    <span class="tag">PowerBI</span>
+                    <span class="tag">Matplotlib / Seaborn</span>
+                    <span class="tag">Predictive Analysis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
